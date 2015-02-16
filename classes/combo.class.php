@@ -76,7 +76,7 @@ class Combo extends Base {
     /**
      * Setters
      */
-    public function setx($x) {
+    public function setX($x) {
         $this->x = $x;
     }
 

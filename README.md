@@ -32,12 +32,17 @@ Generates 3D-like image from the head region of player's Minecraft skin.
 
 ## Usage
 
+All 4 classes are used in a very similar fashion.
+
 ```php
 require_once("avatar.class.php");
 
+// parameters: Minecraft username (case sensitive!), size
 $avatar = new Avatar("The_HusKy", 64);
 $avatar->show()
 ```
+
+Combo class has 2 special methods `setX` and `setY` which allow you to move the full around.
 
 ## License
 
