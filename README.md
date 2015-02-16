@@ -42,7 +42,7 @@ $avatar = new Avatar("The_HusKy", 64);
 $avatar->show()
 ```
 
-Combo class has 2 special methods `setX` and `setY` which allow you to move the full around.
+Combo class has 2 special methods `setX` and `setY` which allow you to move the skin around.
 
 ## License
 
